@@ -1,0 +1,13 @@
+package day05_math_operators;
+
+public class Remainder2 {
+	
+	public static void main(String[] args) {
+		System.out.println(10%2);
+		System.out.println(9%2);
+	
+		
+	}
+	
+
+}
