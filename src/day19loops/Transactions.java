@@ -28,8 +28,6 @@ public class Transactions {
 			balance = balance - transactionAmaount;
 			System.out.println("Current balance: " + balance);
 
-			
-
 		}
 		System.out.println("Insufficient balance: " + balance);
 		System.out.println("Transaction total count: " + count);

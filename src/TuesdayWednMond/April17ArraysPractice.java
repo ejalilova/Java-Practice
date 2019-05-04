@@ -19,27 +19,27 @@ public class April17ArraysPractice {
 			sum = sum + nums[i];
 		}
 		System.out.println(sum);
-		int middle = nums[nums.length/2];//int middle = nums[2];
+		int middle = nums[nums.length / 2];// int middle = nums[2];
 		System.out.println(middle);
-		int last = nums[nums.length-1];//nums[4];
+		int last = nums[nums.length - 1];// nums[4];
 		System.out.println(last);
 		int[] nums2 = { 30, 20, 10, 15, 25 };
-		int lowest = nums[0];//10
-		for (int i =0; i < nums.length; i++) {
+		int lowest = nums[0];// 10
+		for (int i = 0; i < nums.length; i++) {
 			if (nums2[i] < lowest) {
 				lowest = nums2[i];
-				
+
 			}
-			
+
 		}
 		System.out.println("Lowest: " + lowest);
-		int max = nums[0];//30
+		int max = nums[0];// 30
 		for (int i = 0; i < nums.length; i++) {
 			if (nums2[i] > max) {
 				max = nums2[i];
-				
+
 			}
-					}
+		}
 		System.out.println("Max: " + max);
 	}
 }
