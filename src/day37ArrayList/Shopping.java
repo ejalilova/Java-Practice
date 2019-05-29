@@ -13,8 +13,8 @@ public class Shopping {
 		shoppingList.add("fish");
 		int count = shoppingList.size();
 		System.out.println("Total count: " + count);
-		System.out.println(shoppingList);
-		System.out.println(shoppingList.toString());
+		System.out.println("Just shopping list" + shoppingList);
+		System.out.println("Shopping list to String " + shoppingList.toString());
 		System.out.println(shoppingList.get(0) + " | " + shoppingList.get(count - 1));
 		shoppingList.remove(5);
 		shoppingList.remove("oil");

@@ -33,6 +33,8 @@ public class Calculator {
 		case ("%"):
 			remainder(n1,n2);
 		break;
+		default:
+			System.out.println("Invalid operator");
 	}
 	}
 

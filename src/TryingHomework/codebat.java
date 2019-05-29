@@ -2,20 +2,11 @@ package TryingHomework;
 
 public class codebat {
 	public static void main(String[] args) {
-		int max = 0;
-		int a = 10;
-		int b = 20;
-		if (a < 10 || a > 20 || b < 10 || b > 20) {
-
-			System.out.println(0);
-		}
-
-		if (a > b) {
-			max = max + a;
-		} else if (b > a) {
-			max = max + b;
-		}
-		System.out.println(max);
-
+		 int[] arr1 = {6, 7, 3, 9, 5, 15};
+		    return Arrays.sort(arr1);
+		    
+		    String[] arr2 = {"Apple", "Boy", "Girl"};
+		    return arr2.toSort;
+		  }
 	}
-}
+
