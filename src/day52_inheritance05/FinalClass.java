@@ -4,6 +4,6 @@ public final class FinalClass {
 
 }
 
-class ChildClass extends FinalClass {
+//class ChildClass extends FinalClass {
 
-}
+//}

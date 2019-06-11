@@ -23,5 +23,7 @@ public class Cities {
 		Capital cap = new Capital(101, "Washington DC", 800_000L);
 		System.out.println(cap.toString());
 		
+		
+		
 	}
 }
